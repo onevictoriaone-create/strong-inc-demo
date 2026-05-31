@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Strong Inc. 24/7 Gym</title>
+  <meta name="description" content="Strong Inc. 24/7 Gym is a fully automated, always-open gym in Northport, Alabama. Guest and sign-up hours are Monday-Friday from 12-7.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <img src="assets/images.jpg" alt="Strong Inc. 24/7 Gym logo">
+        <div>
+          <strong>Strong Inc.</strong>
+          <span>24/7 Gym · Northport, AL</span>
+        </div>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a class="" href="index.html">Home</a>
+<a class="" href="about.html">About</a>
+<a class="" href="memberships.html">Memberships</a>
+<a class="" href="gallery.html">Gallery</a>
+<a class="active" href="contact.html">Contact</a>
+      </nav>
+
+      <a class="nav-phone" href="tel:3344120786">(334) 412-0786</a>
+      <button class="menu-toggle" id="menuToggle">☰</button>
+    </div>
+  </header>
+
+  <main>
+    
+<section class="page-hero contact-hero">
+  <div class="container reveal">
+    <span class="mini-label">Contact Strong Inc.</span>
+    <h1>Ready to become stronger?</h1>
+    <p>Call, email, get directions, or fill out the contact form below.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container contact-layout">
+    <div class="contact-info reveal">
+      <span class="mini-label">Gym Information</span>
+      <h2 class="section-title">Visit during sign-up hours.</h2>
+      <div class="contact-block">
+        <strong>Phone</strong>
+        <a href="tel:3344120786">(334) 412-0786</a>
+      </div>
+      <div class="contact-block">
+        <strong>Email</strong>
+        <a href="mailto:Stronginc24@gmail.com">Stronginc24@gmail.com</a>
+      </div>
+      <div class="contact-block">
+        <strong>Address</strong>
+        <span>902A Union Chapel Rd.<br>Northport, AL</span>
+      </div>
+      <div class="contact-block">
+        <strong>Guest / Sign-Up Hours</strong>
+        <span>Monday-Friday · 12 PM-7 PM</span>
+      </div>
+      <a class="btn btn-red" target="_blank" href="https://www.google.com/maps/search/?api=1&query=902A%20Union%20Chapel%20Rd%20Northport%20AL">Get Directions</a>
+    </div>
+
+    <form class="contact-form reveal" id="contactForm">
+      <h3>Send a Message</h3>
+      <p>This form opens an email draft to Strong Inc. so the visitor can send their message directly.</p>
+      <label>
+        Name
+        <input type="text" id="name" placeholder="Your name" required>
+      </label>
+      <label>
+        Email
+        <input type="email" id="email" placeholder="Your email" required>
+      </label>
+      <label>
+        Phone
+        <input type="tel" id="phone" placeholder="Your phone number">
+      </label>
+      <label>
+        Interested In
+        <select id="interest">
+          <option>Membership information</option>
+          <option>Guest visit</option>
+          <option>Gym tour</option>
+          <option>General question</option>
+        </select>
+      </label>
+      <label>
+        Message
+        <textarea id="message" rows="6" placeholder="Write your message..." required></textarea>
+      </label>
+      <button class="btn btn-red" type="submit">Create Email</button>
+      <p class="form-note" id="formNote"></p>
+    </form>
+  </div>
+</section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <img class="footer-logo" src="assets/images.jpg" alt="Strong Inc. logo">
+        <h2>Strong Inc. 24/7 Gym</h2>
+        <p>Fully automated. Always open. Built for serious training in Northport, Alabama.</p>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <a href="tel:3344120786">(334) 412-0786</a>
+        <a href="mailto:Stronginc24@gmail.com">Stronginc24@gmail.com</a>
+        <span>902A Union Chapel Rd.<br>Northport, AL</span>
+      </div>
+      <div>
+        <h3>Pages</h3>
+        <a href="about.html">About</a>
+        <a href="memberships.html">Memberships</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span id="year"></span> Strong Inc. 24/7 Gym.</span>
+      <span>Premium website concept.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
